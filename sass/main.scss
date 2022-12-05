@@ -1,0 +1,55 @@
+@charset "utf-8";
+
+@import "_variables.scss";
+
+@import "../node_modules/bulma/bulma.sass";
+@import "../node_modules/@fortawesome/fontawesome-free/scss/fontawesome.scss";
+@import "../node_modules/@fortawesome/fontawesome-free/scss/solid.scss";
+@import "../node_modules/@fortawesome/fontawesome-free/scss/brands.scss";
+
+body {
+    background-color: $dark_purple;
+    min-height: 100%;
+    min-height: 100vh;
+}
+
+footer {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+#site_wrapper {
+    background-color: $white;
+    min-height: 100%;
+    min-height: 100vh;
+    /* stylelint-disable-next-line unit-allowed-list */
+    padding-bottom: 150px;
+}
+
+.navbar-menu {
+    box-shadow: none !important;
+}
+
+#hero_banner {
+    background-image: url('/img/logo_hero.png');
+    background-repeat: no-repeat;
+    background-position-x: left;
+    background-position-y: center;
+    background-color: $dark_grey;
+    /* stylelint-disable-next-line unit-allowed-list */
+    min-height: 600px;
+    max-height: 600px;
+    height: 600px;
+}
+
+#hero_banner_mobile {
+    background-image: url('/img/logo_hero_mobile.png');
+    background-repeat: no-repeat;
+    background-position-x: left;
+    background-position-y: center;
+    background-color: $dark_grey;
+    /* stylelint-disable-next-line unit-allowed-list */
+    min-height: 200px;
+}
