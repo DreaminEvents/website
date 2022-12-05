@@ -1,0 +1,25 @@
+{% extends "layout.html" %}
+{% import "partials/helpers.html" as helpers %}
+
+{% block content %}
+    <section class="hero is-large is-fullheight is-dark is-hidden-mobile" id="hero_banner">
+        <div class="hero-body">
+            <div>
+                <p class="title">Dreamin' Events</p>
+                <p class="subtitle">Connecting the Salesforce community with Salesforce conferences</p>
+            </div>
+        </div>
+    </section>
+    <section class="hero is-large is-fullheight is-dark is-hidden-tablet" id="hero_banner_mobile">
+        <div class="hero-body">
+            <div>
+                <p class="title">Dreamin' Events</p>
+                <p class="subtitle">Connecting the Salesforce community with Salesforce conferences</p>
+            </div>
+        </div>
+    </section>
+    <div class="container is-fluid">
+        <p class="mt-6">Dreamin' Events is a Non-profit organization focused on delivering fantastic conferences in the Salesforce space</p>
+        <p class="mt-4">Our goal is to enable the Salesforce community to provide training and presentations to everyone</p>
+    </div>
+{% endblock %}
