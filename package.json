@@ -39,7 +39,9 @@
     "jquery": "^3.6.1",
     "node-sass": "^8.0.0",
     "nunjucks": "^3.2.3",
-    "stylelint": "^14.15.0"
+    "postcss-scss": "^4.0.6",
+    "stylelint": "^14.15.0",
+    "yaml-lint": "^1.7.0"
   },
   "devDependencies": {
     "config": "^3.3.8"

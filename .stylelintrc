@@ -33,5 +33,14 @@
             "deg",
             "vh"
         ]
-    }
+    },
+    "overrides": [
+        {
+            "files": [
+                "*.scss",
+                "**/*.scss"
+            ],
+            "customSyntax": "postcss-scss"
+        }
+    ]
 }
